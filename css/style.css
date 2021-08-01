@@ -1,0 +1,220 @@
+
+a {
+  outline:0;
+}
+/*NAVIGACIJA*/
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #c4bdb5;
+}
+.navbar-default .navbar-brand {
+    color: #4b6055;
+}
+.navbar-brand {
+    font-size: 20px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #e4e4e6;
+    background-color: #4b6055;
+    border-radius: 6px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #4b6055;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover{
+    color: #10313b;
+  }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #e4e4e6;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #e4e4e6;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #c4bdb5;
+}
+.btn-info, .btn-success {
+    color: #f8f8f8;
+    background-color: #10313b;
+    border-color: #10313b;
+}
+.btn-info:hover,.btn-success:hover,.btn-info:focus,.btn-success:focus  {
+    background-color: #4b6055;
+    border-color: #4b6055;
+}
+.dropdown-menu {
+  background-color: rgba(248,248,248,0.9);
+}
+
+/*FOOTER*/
+
+.blog-footer {
+  padding: 16px 0;
+  color: #e4e4e6;
+  text-align: center;
+  background-color: #4b6055;
+}
+.blog-footer p a {
+  color: #e4e4e6;
+}
+.blog-footer p a:hover {
+  color: #c4bdb5;
+  text-decoration: none;
+}
+.blog-footer p{
+  margin: 0;
+}
+
+/*LANDING PAGE*/
+
+body {
+  font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  background-color:#f8f8f8;
+
+}
+.background {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#content {
+  text-align: center;
+  padding-top: 25%;
+  text-shadow: 0px 4px 3px rgba(16, 49, 59,0.4),
+              0px 8px 13px rgba(16, 49, 59,0.1),
+              0px 18px 23px rgba(16, 49, 59,0.1);
+  height: 100vh;
+  color:#f8f8f8;
+}
+#content h1 {
+  font-size: 5em;
+  font-weight: 600;
+  font-style: italic;
+}
+#content h2 {
+  font-size: 2.5em;
+}
+#content .line {
+  border-bottom: 2px solid #f8f8f8;
+  margin:2% 10%;
+  min-width: 80%;
+}
+.yt {
+  background-color: #f8f8f8;
+  color:#848682;
+  padding-bottom: 20px;
+
+}
+.featurette-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #c4bdb5;
+}
+#asmr {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#asmr h2 {
+  text-align: center;
+  color: #10313b;
+  font-size: 2.5em;
+}
+#asmr p {
+  font-size: 16px;
+  text-align: justify;
+}
+.featurette-heading{
+  color: #10313b;
+}
+p.lead a, p.geek a{
+  color:#4b6055;
+}
+p.lead a:hover, p.geek a:hover {
+  color: #10313b;
+  text-decoration: none;
+}
+.thumbnail {
+  border: 1px solid #10313b;
+  border-radius: 6px;
+  background-color: #10313b;
+  color:#f8f8f8;
+}
+.thumbnail:hover {
+  border: 1px solid #4b6055;
+  background-color: #4b6055;
+}
+
+
+/*GALERIJA*/
+
+#gallery {
+    padding-top: 70px;
+    background-image: url("../images/backgroundgal.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jumbotron {
+  background-color: rgba(248,248,248,0.7);
+  color:#10313b;
+}
+.thumbnail img {
+  width:100%;
+}
+
+/*REGISTRACIJA*/
+
+ul.dropdown-lr {
+  width: 300px;
+}
+.form-control:focus {
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0;
+}
+/*KONTAKT*/
+
+#contact {
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+#contact h1,#contact p {
+  color:#10313b;
+}
+#contact p.txt {
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+#contact p.lead {
+  padding-bottom: 10px;
+}
+.well {
+  margin-bottom: 40px;
+  background-color: rgba(248,248,248,0.7);
+
+}
+/*AUTOR*/
+#autor {
+  padding-top: 15%;
+  background-image: url("../images/backgroundaut.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nina {
+  min-height: 70vh;
+  padding-bottom: 70px;
+}
+.bla {
+  padding-top: 5%;
+}
